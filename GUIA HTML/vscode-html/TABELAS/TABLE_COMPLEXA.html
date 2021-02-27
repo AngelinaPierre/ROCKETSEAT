@@ -5,21 +5,41 @@
 -->
 
 <table>
+
     <caption>PRODUZIDOS VS VENDIDOS POR LOJA</caption>
-    
+
+    <colgroup>
+        <col>
+        <col style="background-color: red;" span="2">
+        <col style="background-color: blue;" span="2">
+    </colgroup>
     <thead>
         <tr>
             <th rowspan="2"></th>
-            <th colspan="2">AFONSO PENA</th>
-            <th colspan="2">ANTÔNIA PEREIRA</th>
+            <th colspan="2" scope="colgroup">AFONSO PENA</th>
+            <th colspan="2" scope="colgroup">ANTÔNIA PEREIRA</th>
         </tr>
-
         <tr>
-            <th>PRODUZIDOS</th>
-            <th>VENDIDOS</th>
-            <th>PRODUZIDOS</th>
-            <th>VENDIDOS</th>
+            <th scope="col">PRODUZIDOS</th>
+            <th scope="col">VENDIDOS</th>
+            <th scope="col">PRODUZIDOS</th>
+            <th scope="col">VENDIDOS</th>
         </tr>
-
     </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Vassouras</th>
+            <td>50</td>
+            <td>30</td>
+            <td>20</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <th scope="row">Baldes</th>
+            <td>10</td>
+            <td>10</td>
+            <td>30</td>
+            <td>25</td>
+        </tr>
+    </tbody>
 </table>
