@@ -24,3 +24,9 @@ inline > tag style > tag link
 1000. Inline
 
 
+### A REGRA !IMPORTANT
+
+* Cuidado, evite o uso.
+* Não é considerado uma boa prática
+* Quabra o fluxo natural da cascata.
+
