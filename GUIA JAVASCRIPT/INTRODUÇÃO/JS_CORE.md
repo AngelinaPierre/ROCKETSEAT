@@ -32,4 +32,15 @@
 - Funções
 - Condicionais
 - Estruturas de repetição
+- ...
+  
+## COMO VAI FUNCIONAR A DINÂMICA DO CURSO?
+
+- Treino de Futebol
+- Treino de artes marciais
+
+* Conteitos e Fundamentos
+* Prática
+* Revisão
+  
 
