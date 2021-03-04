@@ -1,10 +1,10 @@
-/*
-    PROTOTYPE
+// Manipulando Strings e Números
 
-    * prototype-based language
-    * prototype chain
-    * __proto__
+// Transforma String em número e número em String
 
-*/
+let string = "123"
+console.log(Number(string));
 
-11.0.hasOwnProperty()
+let number = 321
+console.log(String(number));
+
