@@ -1,16 +1,23 @@
-// IF... ELSE
+// THROW (LANÇAR)
 
-let temperature = 36
-let highTemperature = temperature >37.5
-let mediumTemperature = temperature >= 37 && temperature<37.5
-
-if(highTemperature){
-    console.log("Febre alta")
-}else if(mediumTemperature){
-    console.log("febre moderada")
-}else{
-    console.log("Saúdavel")
+function sayMyName(name = ''){
+    if(name===''){
+        throw "Nome é obrigatório"
+    }
+    console.log('depois do erro')
+    console.log(name)
 }
+
+// TRY(TENTAR )... CATCH (PEGAR)
+try{
+    sayMyName('Angelina')
+}catch(e){
+    console.log(e)
+}
+console.log("apos a função de erro")
+
+
+
 
 
 
